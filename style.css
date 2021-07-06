@@ -12,7 +12,7 @@ h2{
     color:gray;
 }
 p{
-    font-size: 10px;
+    font-size: 15px;
     padding-bottom: 50px;
 }
 .menu-bar{
@@ -76,15 +76,15 @@ section{
 }
 .top-rated-items{
     display: flex;
-
+    margin:auto;
 }
 .top-rated-items h2{
     color:black;
 }
 .item{
-    width:30%;
-    margin-left: 5%;
-    margin-right: 3%;
+    width:50%;
+    margin-left: 3%;
+    margin-right: 2%;
     border: 10px solid white;
     border-radius: 10px;
     box-shadow: 5px 5px 20px gray;
@@ -94,15 +94,20 @@ section{
     width:100%;
     border-radius: 10px;
 }
-.social-media-review{
-
-    display: inline-flex;
+.social-media{
+ 
     width:80%;
-    margin:30px 100px;
-    padding:30px 200px;
+    margin:100px 80px;
     border: 10px solid white;
     border-radius: 10px;
     box-shadow: 5px 5px 20px gray;
+}
+.social-media-review{
+ 
+    width:80%;
+    margin-left:90px;
+    margin-right:45px;
+    padding:10px;
 }
 footer{
     text-align: center;
