@@ -1,6 +1,67 @@
+body{
+    font-family: 'Uchen', serif;
+    margin:0;
+}
+
 h2{
     font-size:700;
 }
 .orange{
     color:orange;
 }
+section{
+    display: flex;
+    margin-bottom: 10px;
+}
+.half-width{
+    width: 50%;
+    padding: 10%;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    background-image: linear-gradient(salmon,tomato);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: white;
+    
+}
+.background-image{
+    background-image: url(images/fastfood/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-food{
+    text-align: center;
+    margin: auto;
+}
+.top-rated-items{
+    display: flex;
+}
+.item{
+    width:30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.item img{
+    height:300px;
+    width:100%;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+}
+footer p{
+    color:white;
+    font-size: 10px;
+}
+footer h2{
+    color:gray;
+}
+
