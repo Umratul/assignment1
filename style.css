@@ -1,17 +1,26 @@
 body{
-    font-family: 'Uchen', serif;
+    font-family: 'Montserrat', sans-serif;
     margin:0;
 }
 
+h1{
+    font-size: 50px;
+
+}
 h2{
-    font-size:700;
+    font-weight: 700;
+    color:gray;
+}
+p{
+    font-size: 10px;
+    padding-bottom: 50px;
 }
 .orange{
-    color:orange;
+    color:orangered;
 }
 section{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -28,8 +37,13 @@ section{
     color: white;
     
 }
-.background-image{
-    background-image: url(images/fastfood/bg4.jpg);
+.background-image1{
+    background-image: url(images/fastfood/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-image2{
+    background-image: url(images/fastfood/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -39,6 +53,10 @@ section{
 }
 .top-rated-items{
     display: flex;
+
+}
+.top-rated-items h2{
+    color:black;
 }
 .item{
     width:30%;
@@ -55,13 +73,13 @@ section{
 }
 footer{
     text-align: center;
-    background-color: black;
+    background-color: black; 
+    padding-bottom: 50px;
+    margin-top: 100px;
 }
 footer p{
     color:white;
     font-size: 10px;
 }
-footer h2{
-    color:gray;
-}
+
 
