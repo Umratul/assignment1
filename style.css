@@ -96,7 +96,7 @@ section{
 }
 .social-media-review{
 
-    display: -moz-grid-line;
+    display: inline-flex;
     width:80%;
     margin:30px 100px;
     padding:30px 200px;
